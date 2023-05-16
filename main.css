@@ -1,0 +1,429 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.header {
+    background-image: linear-gradient(rgba(5, 0, 0, 0.5), rgba(8, 9, 0, 0.954)), url(images/one.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 95vh;
+}
+.nav li {
+    /* list-style: none;
+    text-decoration: none;
+    border: 2px  solid rgb(255, 251, 251);
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;  */
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid rgb(255, 251, 251);
+    margin: 5% 43% 5%;
+    display: inline-block;
+    padding: 15px 50px;
+}
+.nav li a {
+    text-align: center;
+    text-decoration: double;
+    color: rgb(255, 251, 251);
+}
+.member ul {
+    text-decoration: wavy;
+    list-style: none;
+    display: block;
+    margin: -8% 90% 6%;
+    /* padding: 0px 90%; */
+    color: rgb(255, 251, 251);
+}
+.heading {
+    display: unset;
+    color: rgb(255, 251, 251);
+    padding: 6px;
+    margin: 12% 40%;
+}
+.cyb {
+    position: relative;
+    padding: 1px 1px;
+    margin: 6% 43%;
+    display: contents;
+}
+.para {
+    color: rgb(255, 251, 251);
+    padding: 27px 30px;
+    margin: 22px 483px;
+    width: 666px;
+}
+.text {
+    color: aliceblue;
+}
+.btn {
+    margin: 3% 40%;
+    padding: 14px 56px;
+    width: 20%;
+    border-radius: 3px;
+    color: white;
+    background-color: #d43535;
+}
+/* css for page 2 */
+.review {
+    background-color: #f5f5f6;
+    background-image: url(images/white.jpg);
+}
+.rd1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: -3%;
+}
+.image {
+    width: 50px;
+    margin: 0px 54px;
+}
+#one {
+    float: left;
+    width: 37%;
+}
+#two {
+    float: right;
+    width: 37%;
+}
+
+.box {
+    padding: 94px;
+}
+
+.head3 {
+    color: rgb(8, 8, 8);
+    display: inline;
+    padding: 4px 4px;
+    margin: -50px;
+}
+
+.head6 {
+    color: rgb(13, 13, 14);
+    display: inline-block;
+    padding: 4px;
+    width: 20%;
+    margin: 2% 22%;
+}
+
+.textr {
+    color: rgb(10, 10, 10);
+    margin: 9px 54px;
+    border: 2px solid #f5f5f6;
+}
+
+/* vision page css */
+#vision {
+    background-image: linear-gradient(rgba(39, 37, 37, 0.5), rgba(8, 9, 0, 0.954)), url(images/vision1.webp);
+    background-repeat: no-repeat;
+    margin-top: 30%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.vis {
+    color: aliceblue;
+}
+
+.head2 {
+    color: white;
+    text-align: center;
+    padding: 45px;
+}
+
+.pvtext {
+    color: white;
+    text-align: center;
+    padding: 46px 26px;
+}
+
+.button1 {
+    margin: 38%;
+    padding: 13px 59px;
+    width: 35%;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255 251 251);
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(247, 74, 74, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* coach page css */
+.cimg {
+    float: left;
+    width: 10%;
+}
+
+.coach-image {
+    margin-top: 27%;
+    width: 300px;
+    padding: 80px;
+}
+
+.coacht {
+    float: right;
+    width: 60%;
+}
+
+.coach-head2 {
+    color: black;
+    margin: 5%;
+}
+
+.line {
+    width: 65%;
+    float: left;
+    margin-top: 4%;
+}
+
+#alex {
+    color: #8b3535;
+    margin-left: 2%;
+}
+
+.free-trial {
+    margin-top: 40%;
+}
+
+.free-page {
+    background-image: linear-gradient(rgba(88, 84, 84, 0.5), rgba(21, 21, 19, 0.954)), url(images/tr.jpg);
+    /* background-image: url(images/free-trial.webp); */
+    background-image: url(images/fitness.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    color: rgb(14, 13, 13);
+}
+
+.trial-head2 {
+    color: rgb(9, 9, 9);
+    margin: 3px 142px;
+    padding: 39px;
+}
+
+.start-para {
+    color: rgb(12, 12, 12);
+    margin-left: 3%;
+}
+
+#btn {
+    margin-left: 8%;
+}
+
+.container1 {
+    float: left;
+    width: 20%;
+    margin-top: 3%;
+}
+
+.container2 {
+    float: left;
+    width: 23%;
+    margin: 43px;
+}
+
+.container3 {
+    float: left;
+    width: 23%;
+    margin: 43px;
+}
+
+.container4 {
+    float: right;
+    width: 20%;
+    margin-top: 3%;
+}
+
+.image-girl {
+    height: 56vh;
+    width: 94%;
+}
+
+.image-boy {
+    height: 56vh;
+    width: 40%;
+}
+
+.n-head3 {
+    color: black;
+    text-align: center;
+    padding: 6px;
+}
+
+.n-head4 {
+    color: #8b3535;
+    text-align: center;
+}
+
+.list {
+    color: black;
+    list-style: none;
+    margin-left: 22%;
+    padding: 20px;
+}
+
+.schedule-btn {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    padding: 6px 16px;
+    margin: 10px 67px;
+}
+#n-list{
+    padding: 52px 22px;
+}
+/* about page css */
+.division1{
+    flex: 2;
+    text-align: left;
+}
+.division li{
+    margin-top: -0.5%;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative; 
+}
+.about-page{
+    margin-top: 35%;
+    background-image: linear-gradient(rgba(39, 37, 37, 0.5), rgba(8, 9, 0, 0.954)), url(images/dumbell.jpg);
+    /* animation: imgRotate 50s linear infinite; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+  
+}
+.d-head3{
+    color: white;
+    padding: 4px 69px;
+    display: block;
+}
+.d1-ul{
+    color: white;
+    display: block;
+}
+.d2-ul{
+    color: white;
+    display: block;
+}
+.map{
+   border: black;
+   width: 150px;
+   height: 110px;
+   display: block;
+   padding: 0px 102px;
+}
+.nav1{
+    text-align: left;
+}
+.li1{
+    float: left;
+    width: 25%;
+}
+.li2{
+    float: left;
+    width: 25%;
+}
+.li3{
+    float: left;
+    width: 25%;
+   
+}
+.nav1 li{
+    list-style: none;
+    text-decoration: none;
+    margin: 7% 2% 5%;
+    display: inline-block;
+    padding: 0px 16px;
+}
+.nav-para-one{
+    color: white;
+    padding: 7px;
+    margin: 12px 36px;
+}
+.nav-para-two{
+    color: white;
+    padding: 16px;
+    margin: 0px;
+}
+.icons{
+    padding: 7px 119px;
+    margin-top: -13%;
+}
+.icons1{
+    padding: 5px 80px;
+    margin-top: 1%;
+}
+/* contact us page css */
+.c-head3{
+    color: black;
+    padding: 35px 143px;
+}
+.input-box{
+    border: 2px solid black;
+    margin-left: 9%;
+    padding: 5px;
+    width: 15%;
+}
+
+.input-box1{
+    border:2px solid  black;
+    padding: 5px;
+    margin-left: 8px;
+    width: 15%;
+}
+.submit{
+    padding: 5px 16px;
+    background-color: #dc3b3b;
+    color: white;
+    margin-left: 8px;
+}
+.textarea{
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: -0.7%;
+    margin-left: 8px;
+    width: 30%;
+}
+.div1{
+    float: left;
+    width: 25%;
+}
+.div2{
+    float: left;
+    width: 20%;
+}
+.div3{
+    float: left;
+    width: 20%;
+ 
+}
+.div4{
+    float: left;
+    width: 25%;
+}
+.div_head{
+    color: black;
+    margin-left: 9%;
+    padding: 71px 91px;
+    /* padding: 10px 91px; */
+}
+.div-p{
+    color: black;
+    padding: 0px 72px;
+    margin-top: -15%;
+    margin-left: 15%;
+}
+
